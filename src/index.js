@@ -1,10 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux'
 import store from './data';
+
+
+
+
+import 'materialize-css/dist/css/materialize.min.css'
+import 'materialize-css/dist/js/materialize.min'
+
 
 const main = <Provider store={store}>
     <App />
