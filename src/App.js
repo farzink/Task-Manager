@@ -5,7 +5,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">      
-      {process.env.version}     
+      {process.env.REACT_APP_VERSION}     
+      {process.env.NODE_ENV}
       </div>
     );
   }
